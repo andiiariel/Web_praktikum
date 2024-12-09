@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DG-GAMES :: home</title>
+
+<!--  -->
+    <link rel="stylesheet" href="../CSS/bootstrap.min.css">
+
+    <!-- css internal -->
+     <style>
+        .bg-default{
+            background-color: deeppink;
+        }
+        .text-default {
+            color: deeppink;
+        }
+        .border-default{
+          border: 10px solid deeppink;
+        }
+        section{
+          padding-top: 3%;
+        }
+     </style>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-default fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">Profil</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link "  href="../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Biodata</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../abaut/index.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../user/index.html">Login</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Foto -->
+       <section class="container mt-5">
+        <div class="row d-flex justify-content-center">
+          <div class="col-6 d-flex justify-content-center">
+            <img src="../img/propile.jpg" alt="Bocil Pasaran" class="img-fluid rounded-circle border-default">
+          </div>
+          <h1 class="text-default text-center M-3">A.ARIEL</h1>
+          <h4 class="text-center">Agribisnis Peternakan | Vokasi</h4>
+
+        </div>
+        
+        <div class="row mt-5 d-flex justify-content-center">
+          <div class="col-5">
+            <H5 class="text-default text-center">Informasi</H5>
+            <form action="#">
+              <table>
+                <!-- email -->
+                <tr>
+                  <td class="col-3">
+            <label for="email" class="form-label">email</label>
+
+                  </td>
+                  <td>:</td>
+                  <td class="col-9">
+                    <input type="text" class="form-control" value="alil.stat@gamail.com" DISABLED>
+                  </td>
+                </tr>
+                <!-- Nomor -->
+                <tr>
+                  <td class="col-3">
+            <label for="Nomor" class="form-label">Nomor Hp</label>
+
+                  </td>
+                  <td>:</td>
+                  <td class="col-9">
+                    <input type="text" class="form-control" value="+6282345678987" DISABLED>
+                  </td>
+                </tr>
+                <!-- Jenis kelamin -->
+                <tr>
+                  <td class="col-3">
+            <label for="Jenis_kelamin" class="form-label">Jenis kelamin</label>
+
+                  </td>
+                  <td>:</td>
+                  <td class="col-9">
+                    <input type="text" class="form-control" value="Laki-laki" DISABLED>
+                  </td>
+                </tr>
+                <!-- Alamat -->
+                <tr>
+                  <td class="col-3">
+            <label for="Alamat" class="form-label">Alamat</label>
+
+                  </td>
+                  <td>:</td>
+                  <td class="col-9">
+                   <textarea name="" id="" class="form-control" rows="3" disabled>Jln.poros bone kota, kec.Patimpeng, kab.Bone, sulawesi selatan, indonesia</textarea>
+                  </td>
+                </tr>
+              </table>
+          </div>
+          <div class="col-5">
+            <H5 class="text-default text-center">Riwayat Pendidikan</H5>
+            <form action="#">
+              <table>
+                <!--TK  -->
+                <tr>
+                  <td class="col-2">
+                    <label for="TK" class="form-label">TK</label>
+                  </td>
+                  <td>:</td>
+                  <td class="col-2">
+                    <input type="text" class="form-control" disabled value="2009">
+                  </td>
+                  <td class="8">
+                    <input type="text" class="form-control" disabled value="TK LAMANDASYINI">
+                  </td>
+                </tr>
+                <!--SD  -->
+                <tr>
+                  <td class="col-2">
+                    <label for="SD" class="form-label">SD</label>
+                  </td>
+                  <td>:</td>
+                  <td class="col-2">
+                    <input type="text" class="form-control" disabled value="2011">
+                  </td>
+                  <td class="8">
+                    <input type="text" class="form-control" disabled value="SDN 259 PATIMPENG">
+                  </td>
+                </tr>
+                  <!--SMP  -->
+                  <tr>
+                    <td class="col-2">
+                      <label for="SMP" class="form-label">SMP</label>
+                    </td>
+                    <td>:</td>
+                    <td class="col-2">
+                      <input type="text" class="form-control" disabled value="2018">
+                    </td>
+                    <td class="8">
+                      <input type="text" class="form-control" disabled value="SMPN 1 PATIMPENG">
+                    </td>
+                  </tr>
+                    <!--SMA  -->
+                <tr>
+                  <td class="col-2">
+                    <label for="SMA" class="form-label">SMA</label>
+                  </td>
+                  <td>:</td>
+                  <td class="col-2">
+                    <input type="text" class="form-control" disabled value="2021">
+                  </td>
+                  <td class="8">
+                    <input type="text" class="form-control" disabled value="SMAN 6 BONE">
+                  </td>
+                </tr>
+                  <!--D4  -->
+                  <tr>
+                    <td class="col-2">
+                      <label for="D4" class="form-label">D4</label>
+                    </td>
+                    <td>:</td>
+                    <td class="col-2">
+                      <input type="text" class="form-control" disabled value="2023">
+                    </td>
+                    <td class="8">
+                      <input type="text" class="form-control" disabled value="UNIVERSITAS HASANUDDIN">
+                    </td>
+                  </tr>
+              </table>
+            </form>
+          </div>
+        </div>
+
+        <!-- Motto -->
+         <div class="row mt-5 d-flex justify-content-center mb-5">
+          <div class="col-10">
+            <form action="#">
+              <h5 class="text-default">Motto</h5>
+              <textarea name="" id="" class="form-control" disabled rows="3" cols="10">
+1.Selalu ceria, walau hujan badai
+2.Jadilah bintang kecil, yang selalu bersinar di hati
+3.Kecil tapi berani, imut tapi pintar
+              </textarea>
+            </form>
+          </div>
+         </div>
+       </section>
+
+    
+ </section>
+
+
+       <script src="../JS/bootstrap.bundle.min.js"></script>
+       
+</body>
+</html>
